@@ -16,11 +16,13 @@
             "jest": true, 
             "cypress/globals": true  
         },
-          "plugins": ["jest"],
+          "plugins": [
+            "jest", "cypress"
+        ],
           "extends": ["plugin:jest/recommended"],
           "rules": { 
             "jest/prefer-expect-assertions": "off",
-            "no-unused-vars": "off" 
+            "no-unused-vars": "off"
         }
         }
     ],
