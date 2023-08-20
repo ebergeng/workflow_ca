@@ -1,5 +1,5 @@
 describe("Login", () => {
-  const pageURL = "http://127.0.0.1:5500/";
+  const pageURL = "http://localhost:8080/";
 
   const USER_DATA = {
     email: "eb_workflow@stud.noroff.no",
